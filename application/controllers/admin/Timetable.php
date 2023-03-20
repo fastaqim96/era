@@ -312,7 +312,7 @@ class Timetable extends Admin_Controller
             $this->form_validation->set_rules('staff_' . $value, 'Staff', 'trim|required');
             $this->form_validation->set_rules('time_from_' . $value, 'Time From', 'trim|required');
             $this->form_validation->set_rules('time_to_' . $value, 'Time To', 'trim|required');
-            $this->form_validation->set_rules('room_no_' . $value, 'Room No', 'trim|required');
+            $this->form_validation->set_rules('room_no_' . $value, 'Block & Room No', 'trim|required');
         }
 
         if (!$this->form_validation->run()) {
