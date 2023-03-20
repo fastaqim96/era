@@ -74,7 +74,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'localhost', //for live staging : 'hostname' => 'xenon5', 'username' => 'imebcomm_ssmsi', 'password' => 'h=Jx9UUpeI1Y', 'database' => 'imebcomm_ssnodb'
 	'username' => 'root',
 	'password' => '',
 	'database' => 'ssnodb',
