@@ -24,8 +24,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | a PHP script and you can easily do that on your own.
   |
  */
+
+ //Base Site URL for local development
 $config['base_url'] = 'http://localhost/ssms/';
 
+//Base Site URL for live staging
+//$config['base_url'] = 'https://www.imeb.com.my/ssmsi/';
+
+//Base Site URL for main live server
+//$config['base_url'] = 'https://era.edu.my/ssmsi'
 
 /*
   |--------------------------------------------------------------------------
